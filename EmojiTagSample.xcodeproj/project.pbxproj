@@ -13,6 +13,7 @@
 		9AE1EA121CD99D310066A865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1EA101CD99D310066A865 /* Main.storyboard */; };
 		9AE1EA141CD99D310066A865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1EA131CD99D310066A865 /* Assets.xcassets */; };
 		9AE1EA171CD99D310066A865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1EA151CD99D310066A865 /* LaunchScreen.storyboard */; };
+		9AE1EA211CD99D970066A865 /* NSString+QISEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1EA201CD99D970066A865 /* NSString+QISEmoji.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9AE1EA131CD99D310066A865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE1EA161CD99D310066A865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE1EA181CD99D310066A865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE1EA1F1CD99D970066A865 /* NSString+QISEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QISEmoji.h"; sourceTree = "<group>"; };
+		9AE1EA201CD99D970066A865 /* NSString+QISEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QISEmoji.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		9AE1EA061CD99D310066A865 /* EmojiTagSample */ = {
 			isa = PBXGroup;
 			children = (
+				9AE1EA1E1CD99D870066A865 /* Util */,
 				9AE1EA0A1CD99D310066A865 /* AppDelegate.h */,
 				9AE1EA0B1CD99D310066A865 /* AppDelegate.m */,
 				9AE1EA0D1CD99D310066A865 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				9AE1EA081CD99D310066A865 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AE1EA1E1CD99D870066A865 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9AE1EA1F1CD99D970066A865 /* NSString+QISEmoji.h */,
+				9AE1EA201CD99D970066A865 /* NSString+QISEmoji.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				9AE1EA0F1CD99D310066A865 /* ViewController.m in Sources */,
 				9AE1EA0C1CD99D310066A865 /* AppDelegate.m in Sources */,
+				9AE1EA211CD99D970066A865 /* NSString+QISEmoji.m in Sources */,
 				9AE1EA091CD99D310066A865 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
